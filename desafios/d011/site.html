@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site astronauta
+    </title>
+    <style>
+        div#fundo {
+            height: 100vh;
+            background-color: blue;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: -8px;
+            /* em shorthando ficaria: 
+            background: blue url(imagens/espaco.jpg) center center no-repeat fixed;
+            background-size: cover; */ 
+        }
+
+        div#astronauta {
+            height: 100vh;
+            background-image: url(imagens/astronauta.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div id="fundo">
+        <div id="astronauta"></div>
+    </div>
+</body>
+</html>
